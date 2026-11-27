@@ -30,14 +30,14 @@ sha() {
 base="https://github.com/FormalSnake/kopuz-plugin-spotify/releases/download/$tag"
 cat <<JSON
 {
-  "id": "spotify",
-  "name": "Spotify",
+  "id": "spotify-premium",
+  "name": "Spotify Premium",
   "version": "$version",
   "api": "0.2",
   "description": "Your Spotify library, liked songs and playlists, with search across the catalogue. Playback needs Spotify Premium.",
   "author": "FormalSnake",
   "homepage": "https://github.com/FormalSnake/kopuz-plugin-spotify",
-  "services": ["spotify"],
+  "services": ["spotify-premium"],
   "network": ["*.spotify.com", "*.spotifycdn.com", "*.scdn.co"],
   "manifest": { "url": "$base/kopuz-plugin.toml", "sha256": "$(sha dist/kopuz-plugin.toml)" },
   "component": { "url": "$base/plugin.wasm", "sha256": "$(sha dist/plugin.wasm)" }
