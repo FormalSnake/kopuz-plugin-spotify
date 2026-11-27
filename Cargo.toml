@@ -17,7 +17,7 @@ print_stdout = "deny"
 print_stderr = "deny"
 
 [dependencies]
-kopuz-plugin-sdk = { git = "https://github.com/Kopuz-org/kopuz", rev = "c84c680e1f9ab3377c440d182d430003b5c523c6" }
+kopuz-plugin-sdk = { git = "https://github.com/Kopuz-org/kopuz", rev = "afb1513e57161e23f1dd36eba785855096b90856" }
 base64 = "0.22"
 hmac = "0.12"
 librespot-protocol = { version = "0.8.0", default-features = false }

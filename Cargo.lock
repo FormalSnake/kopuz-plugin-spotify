@@ -337,7 +337,7 @@ checksum = "3bd1574e617a9a6c1f8f8181bd7e841e1f20e4277607ef28945765188d6284d4"
 [[package]]
 name = "kopuz-plugin-sdk"
 version = "1.0.1"
-source = "git+https://github.com/Kopuz-org/kopuz?rev=c84c680e1f9ab3377c440d182d430003b5c523c6#c84c680e1f9ab3377c440d182d430003b5c523c6"
+source = "git+https://github.com/Kopuz-org/kopuz?rev=afb1513e57161e23f1dd36eba785855096b90856#afb1513e57161e23f1dd36eba785855096b90856"
 dependencies = [
  "base64",
  "serde",
